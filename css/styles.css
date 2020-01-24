@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css?family=Archivo|Baloo+Bhai|Hammersmith+One|Paytone+One|Questrial&display=swap');
+
+
+body
+{
+  background-color: #000;
+}
+
+h1
+{
+  font-family: "Paytone One", sans-serif;
+text-shadow: 2px 2px #aaa;
+}
+h2
+{
+  font-size: 1.5rem;
+  font-family: "Baloo Bhai", sans-serif;
+}
+
+.BGImage
+{
+  position:fixed;
+  z-index: -20;
+
+  width:100%;
+  height:100%;
+}
+
+.Light-Text-Centered
+{
+  font-family: Archivo, sans-sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.Light-Text-Left
+{
+  font-family: Archivo, sans-sans-serif;
+  text-align: Left;
+  color: white;
+}
+
+.Light-Text-Centered-h2
+{
+  font-family: Archivo, sans-sans-serif;
+  text-align: center;
+  padding: 3% 7%;
+  color: #ddd;
+}
+.Contains-BG
+{
+  height: 400px;
+  background-size: cover; background-size: 100%
+}
+
+.Gradient-BG
+{
+
+  background-image: linear-gradient(to left, #00000000, #55555588,#55555588,#55555588, #00000000);
+}
+.Gradient-BG-DN-50
+{
+  background-image: linear-gradient( #00000000,#55555f88);
+}
+
+#TitleSection
+{
+    font-family: "Playtone One", sans-serif;
+}
+
+#TopSection
+{
+
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #33333388;
+  border-width: 1px;
+font-family: "Archivo", sans-serif;
+}
+
+@media (min-width: 1025px)
+{
+  .Light-Text-Centered
+  {
+
+    font-size: 12px;
+
+  }
+  .Light-Text-Left
+  {
+    font-size: 12px;
+  }
+  .Light-Text-Centered-h2
+  {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px)
+{
+  .Light-Text-Centered
+  {
+
+    font-size: 10px;
+
+  }
+  .Light-Text-Left
+  {
+    font-size: 10px;
+  }
+  .Light-Text-Centered-h2
+  {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 770px)
+{
+  .Light-Text-Centered
+  {
+
+    font-size: 8px;
+
+  }
+  .Light-Text-Left
+  {
+    font-size: 8px;
+  }
+  .Light-Text-Centered-h2
+  {
+    font-size: 12px;
+  }
+}
