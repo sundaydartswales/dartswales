@@ -227,7 +227,7 @@ font-family: "Archivo", sans-serif;
 
 }
 
-@media (max-width: 770px)
+@media (max-width: 770px) 
 {
   .Light-Text-Centered
   {
@@ -254,4 +254,19 @@ font-family: "Archivo", sans-serif;
     padding: 3%;
     text-shadow: 2px 2px #111111;
   }
+}
+
+@media all and (orientation:portrait)
+{
+  .column
+  {
+    font-size: 1.0rem;
+  }
+  .columnHeader
+  {
+    font-size: 1.5rem;
+    padding: 3%;
+    text-shadow: 2px 2px #111111;
+  }
+}
 }
