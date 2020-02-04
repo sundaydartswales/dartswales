@@ -167,7 +167,7 @@ font-family: "Archivo", sans-serif;
   text-align: center;
 }
 
-@media (min-width: 1025px)
+@media (min-width: 1081px)
 {
   .Light-Text-Centered
   {
@@ -183,9 +183,21 @@ font-family: "Archivo", sans-serif;
   {
     font-size: 18px;
   }
+
+  .column
+  {
+    font-size: 0.8rem;
+  }
+  .columnHeader
+  {
+    font-size: 1.25rem;
+    padding: 3%;
+    text-shadow: 2px 2px #111111;
+  }
+
 }
 
-@media (max-width: 1024px)
+@media (max-width: 1080px)
 {
   .Light-Text-Centered
   {
@@ -201,6 +213,18 @@ font-family: "Archivo", sans-serif;
   {
     font-size: 16px;
   }
+
+  .column
+  {
+    font-size: 1.0rem;
+  }
+  .columnHeader
+  {
+    font-size: 1.5rem;
+    padding: 3%;
+    text-shadow: 2px 2px #111111;
+  }
+
 }
 
 @media (max-width: 770px)
@@ -229,7 +253,5 @@ font-family: "Archivo", sans-serif;
     font-size: 1.5rem;
     padding: 3%;
     text-shadow: 2px 2px #111111;
-
-
   }
 }
