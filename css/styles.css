@@ -4,19 +4,31 @@
 
 body
 {
+  transition-timing-function: ease-in-out;
+  transition-property: font;
+  transition-duration: 0.5s;
+  
   background-color: #131313;
 }
 
 h1
 {
+  transition-timing-function: ease-in-out;
+  transition-property: font;
+  transition-duration: 0.5s;
   font-family: "Paytone One", sans-serif;
 /*text-shadow: 2px 2px #aaa;*/
 }
 h2
 {
+  transition-timing-function: ease-in-out;
+  transition-property: font;
+  transition-duration: 0.5s;
+
   color: grey;
-  font-size: 1.5rem;
+  font-size: 2.05rem;
   font-family: "Questrial", sans-serif;
+      line-height: 10px;
 }
 
 a:hover
@@ -238,6 +250,16 @@ font-family: "Archivo", sans-serif;
     font-size: 1.5rem;
     Padding: 3px 3px 3px;
   }
+
+  h1
+  {
+    font-size: 2.75rem;
+  }
+  h2
+  {
+    line-height: 10px;
+    font-size: 2.25rem;
+  }
 }
 
 @media (max-width: 1080px)
@@ -302,13 +324,11 @@ font-family: "Archivo", sans-serif;
   h1
   {
     font-size: 1.5rem;
-    font-family: "Paytone One", sans-serif;
-  text-shadow: 2px 2px #aaa;
   }
   h2
   {
-    font-size: 1.0rem;
-    font-family: "Baloo Bhai", sans-serif;
+    line-height: 3px;
+    font-size: 1.23rem;
   }
 }
 
