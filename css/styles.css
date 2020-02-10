@@ -64,7 +64,10 @@ a:hover
 
 
 }
-
+.navbar-dark
+{
+  background-color: black;
+}
 .linkGroup
 {
   padding: 0% 3% 0% 3%;
