@@ -27,6 +27,18 @@ h2
       line-height: 10px;
 }
 
+h4
+{
+  transition-timing-function: ease-in-out;
+  transition-property: font;
+  transition-duration: 0.5s;
+
+  color: grey;
+  font-size: 1.6rem;
+  font-family: "Questrial", sans-serif;
+      line-height: 10px;
+}
+
 a:hover
 {
   text-decoration: none;
@@ -213,8 +225,49 @@ font-family: "Archivo", sans-serif;
 
 #footer
 {
-  padding: 7% 15%;
+  padding: 2% ;
   text-align: center;
+}
+
+.card-element
+{
+  border-bottom:1px solid #33bb33;
+  background-color: #333333aa;
+}
+.Marginised-CardDeck
+{
+  padding: 1%;
+  margin-left: 9%;
+  width: 82%;
+}
+.Marginised-Title
+{
+  padding: 1%;
+  margin-left: 10%;
+  background-color: #333333aa;
+  width: 80%;
+}
+.Marginised
+{
+  padding: 1%;
+  margin-left: 10%;
+  background-color: #333333aa;
+  width: 80%;
+  height: 200px;
+  border-top:1px solid #33bb33;
+}
+.Marginised-Rules
+{
+  padding: 1%;
+  margin-left: 10%;
+  background-color: #333333aa;
+  width: 80%;
+  height: 300px;
+  border-top:1px solid #33bb33;
+}
+.newspanel
+{
+  padding: 2%;
 }
 
 @media (min-width: 1081px)
@@ -258,6 +311,11 @@ font-family: "Archivo", sans-serif;
   {
     line-height: 10px;
     font-size: 2.25rem;
+  }
+  h4
+  {
+    font-size: 1.85rem;
+        line-height: 10px;
   }
 }
 
